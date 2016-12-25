@@ -29,7 +29,7 @@ public class UserAction extends ActionSupport {
 
     public String login() throws Exception {
 
-        System.out.println("Login.action");
+        System.out.println("Login.action99");
 
         if ("admin".equals(username) && "admin".equals(password))
             return "success";
