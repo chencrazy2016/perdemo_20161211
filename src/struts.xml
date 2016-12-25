@@ -8,5 +8,9 @@
         <action name="hello" class="com.fh.action.HelloAction">
             <result name="success">/index.jsp</result>
         </action>
+        <action name="login" class="com.fh.action.UserAction" method="login">
+            <result name="success">/jsp/common/main.jsp</result>
+            <result name="error">/jsp/login/login.jsp</result>
+        </action>
     </package>
 </struts>
